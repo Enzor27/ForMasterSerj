@@ -1,7 +1,7 @@
 
 public class TheMain {
 
-    static int[] nums = new int[10];
+    static int[] nums = new int[11];
 
     public static void main(String [] args) {
     nums[0]=2;
@@ -14,6 +14,7 @@ public class TheMain {
     nums[7]=4;
     nums[8]=4;
     nums[9]=8;
+    nums[10]=8;
 
         for (int n: nums) {
             System.out.println(n);
