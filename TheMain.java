@@ -1,14 +1,23 @@
 
 public class TheMain {
 
-    public static void main(String [] args) {
-        int val = calcSum(5,6);
-        System.out.println(val);
-    }
+    static int[] nums = new int[10];
 
-    static int calcSum(int a, int b) {
-        int sum = a + b;
-        return sum;
+    public static void main(String [] args) {
+    nums[0]=2;
+    nums[1]=45;
+    nums[2]=5;
+    nums[3]=36;
+    nums[4]=85;
+    nums[5]=3;
+    nums[6]=56;
+    nums[7]=4;
+    nums[8]=4;
+    nums[9]=8;
+
+        for (int n: nums) {
+            System.out.println(n);
+        }
     }
 }
 
